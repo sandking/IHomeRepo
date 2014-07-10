@@ -1,0 +1,36 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>  
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- Controller -->
+
+    <style name="LoginInputStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/login_input_edit_height</item>
+        <item name="android:background">@drawable/ic_login_inputbg</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">16</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">@dimen/login_input_edit_padding_left</item>
+        <item name="android:textColor">@color/login_input_edit_text_color</item>
+        <item name="android:textColorHint">@color/login_input_edit_hint_color</item>
+        <item name="android:textSize">@dimen/login_input_edit_font_size</item>
+    </style>
+
+</resources>

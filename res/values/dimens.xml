@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Total Formatter : act_func_ctlname_detial -->
+
+    <dimen name="act_ihome_bg_padding">5dp</dimen>
+    <dimen name="act_ihome_title_layout_padding">5dp</dimen>
+    <dimen name="act_setting_item_corner">5dp</dimen>
+
+    <!-- ACT [ Login ] -->
+
+    <dimen name="login_all_layout_padding_left">28.0dp</dimen>
+    <dimen name="login_all_layout_padding_right">28.0dp</dimen>
+    
+    <dimen name="login_logo_img_height">150dp</dimen>
+    <dimen name="login_logo_img_margin_top">10.0dp</dimen>
+    
+    <dimen name="login_input_edit_height">44.0dp</dimen>
+    <dimen name="login_input_edit_padding_left">12.0dp</dimen>
+	<dimen name="login_input_edit_font_size">16.0sp</dimen>
+    
+	<dimen name="login_confirm_btn_margin_top">18.0dp</dimen>
+	<dimen name="login_confirm_btn_padding">5.0dp</dimen>
+	<dimen name="login_confirm_btn_font_size">18.0sp</dimen>
+	
+	
+	<dimen name="request_radiogp_padding">20.0dp</dimen>
+	<dimen name="request_titletop_padding">10.0dp</dimen>
+	
+    <!-- ACT [Settings] -->
+
+    <dimen name="act_settings_item_stroke">1px</dimen>
+    <dimen name="act_settings_title_font_setting">20sp</dimen>
+    <dimen name="act_settings_item_font_txt">17sp</dimen>
+    <dimen name="act_settings_item_margin_left">8dp</dimen>
+    <dimen name="act_settings_item_margin_right">8dp</dimen>
+    <dimen name="act_settings_item_margin_top">14dp</dimen>
+    <dimen name="act_settings_item_switch_margin_right">18dp</dimen>
+    <dimen name="act_settings_item_arrow_margin_right">10dp</dimen>
+    <dimen name="act_settings_item_icon_margin_left">8dp</dimen>
+    <dimen name="act_settings_item_text_padding">8dp</dimen>
+
+</resources>

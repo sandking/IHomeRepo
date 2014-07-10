@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ACT [ LOGIN ] -->
+
+    <color name="login_input_edit_text_color">#ff1d1d1d</color>
+    <color name="login_input_edit_hint_color">#ff666666</color>
+    <color name="login_confirm_btn_text_color">#ff333333</color>
+    
+    <!-- ACT [Settings] -->
+    <color name="act_settings_item_font">#EE333333</color>
+    <color name="act_settings_title_font">#FFFFFFFF</color>
+    <color name="bbutton_default">#ffffffff</color>
+    <color name="bbutton_default_edge">#ffcccccc</color>
+    <color name="bbutton_default_pressed">#ffebebeb</color>
+    <color name="bbutton_default_pressed_edge">#ffadadad</color>
+    <color name="bbutton_default_disabled">#a5ffffff</color>
+    <color name="bbutton_default_disabled_edge">#a5cccccc</color>
+
+</resources>

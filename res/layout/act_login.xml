@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingLeft="@dimen/login_all_layout_padding_left"
+    android:paddingRight="@dimen/login_all_layout_padding_right" >
+
+    <ImageView
+        android:id="@+id/img_login_logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_logo_img_height"
+        android:layout_marginTop="@dimen/login_logo_img_margin_top"
+        android:src="@drawable/ic_ihome_logo" />
+
+    <LinearLayout
+        android:id="@+id/layout_login_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_login_logo"
+        android:background="@drawable/ic_login_inputbg"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edit_login_account"
+            style="@style/LoginInputStyle"
+            android:inputType="number"
+            android:text="@string/act_login_account" />
+
+        <!--
+             <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_marginLeft="1.0px"
+            android:layout_marginRight="1.0px"
+            android:background="#ffc0c3c4" />  -->
+
+        <EditText
+            android:id="@+id/edit_login_passwd"
+            style="@style/LoginInputStyle"
+            android:inputType="textPassword"
+            android:text="@string/act_login_passwd" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_login_input"
+        android:layout_marginTop="@dimen/login_confirm_btn_margin_top"
+        android:background="@drawable/ic_login_confirm"
+        android:gravity="center"
+        android:paddingTop="@dimen/login_confirm_btn_padding"
+        android:text="@string/act_login_login_server"
+        android:textColor="@color/login_confirm_btn_text_color"
+        android:textSize="@dimen/login_confirm_btn_font_size" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login_login"
+        android:layout_marginTop="8.0dip"
+        android:layout_weight="1" >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:button="@null"
+            android:checked="true"
+            android:drawableLeft="@drawable/ic_login_remember"
+            android:drawablePadding="4.0dip"
+            android:text="@string/act_login_remember_passwd"
+            android:textColor="#ffffffff"
+            android:textSize="12.0sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_login_more"
+            android:gravity="left|center"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="18.0dip"
+            android:text="@string/act_login_more"
+            android:textColor="#ffffffff"
+            android:textSize="12.0sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
